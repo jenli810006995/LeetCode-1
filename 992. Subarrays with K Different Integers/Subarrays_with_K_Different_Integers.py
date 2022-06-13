@@ -10,7 +10,7 @@ class Solution:
         count = collections.Counter()
         res = i = 0
 
-        for j in range(len(nums)):
+        for j in range(len(nums)): 
             if count[nums[j]] == 0: # means the count of nums[j] is 0
                 k -= 1
             count[nums[j]] += 1
